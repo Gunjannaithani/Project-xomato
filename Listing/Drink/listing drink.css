@@ -1,0 +1,353 @@
+body{
+    margin:auto;
+    background-color: #a7bf4a85 !important;
+}
+
+/*header section*/
+#titlebar{
+    height:30px;
+    width:100%;
+    background-color:#9a6f67;
+}
+
+
+#titlebar > button{
+    margin-top: 2px;
+}
+
+#Home{
+    margin-left:10px;
+}
+#Login{
+   float:right;
+   margin-right: 10px;
+}
+#signup{
+    float:right;
+    margin-right: 10px;
+}
+
+/*search section*/
+
+#main{
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+    display:inline-block;
+}
+
+
+.imgloc{
+    position: absolute;
+    height: 200px;
+    width: 20%;
+    margin-top: 30px;
+}
+
+.imgloc>img{
+    height:200px;
+    width:100%;
+}  
+
+
+#filter{
+    height: 400px;
+    width: 22%;
+    margin-top: 22%;
+    float: left;
+    border-radius: 4%;
+    background-color: whitesmoke;
+    border:5px solid gray;
+}
+
+input{
+    margin-left:20px !important;
+}
+
+.f1{
+    text-align: center;
+    font-size: 20px;
+    margin-top:25px;
+}
+
+.f2{
+    text-align: center;
+    font-size: 20px;
+    margin-top:25px;
+}
+
+.text{
+    font-size:30px;
+    text-align:center;
+    margin-top:10px;
+}
+
+#content{
+   
+    width: 70%; 
+    float:left;
+    margin-left: 30px;
+}
+
+#c1{
+    height:300px;
+    width:100%;
+    margin-top: 20px;
+    border-radius: 150px;
+    background-color: whitesmoke;
+    box-shadow:5px 10px 20px;
+}
+
+.img1{
+    height:300px;
+    width:50%;
+    float: left;
+}
+
+.img1 > img{
+    height:300px;
+    width:100%;
+    border-radius: 100px;
+    box-shadow: 10px 0px 20px;
+}
+
+
+.textbloodymary{
+    height: 300px;
+    width:45%;
+    float: left;
+}
+
+.text1{
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 40px;
+    color:red;
+    text-shadow: 0px 0px 10px;
+}
+
+.Restaurant1{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.star1{
+    margin-left:50px;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+.checked{
+    color:yellow;
+}
+
+.price1{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.button1{
+    margin-left: 50px;
+}
+
+#c2{
+    height:300px;
+    width:100%;
+    margin-top: 30px;
+    border-radius: 150px;
+    background-color: whitesmoke;
+    box-shadow:5px 10px 20px;
+}
+
+.img2{
+    height:300px;
+    width:50%;
+    float: left;
+}
+
+.img2 > img{
+    height:300px;
+    width:100%;
+    border-radius: 100px;
+    box-shadow: 10px 0px 20px;
+}
+
+
+.textbluelagoon{
+    height: 300px;
+    width:45%;
+    float: left;
+}
+
+.text2{
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 40px;
+    color:red;
+    text-shadow: 0px 0px 10px;
+}
+
+.Restaurant2{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.star2{
+    margin-left:50px;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+.checked{
+    color:yellow;
+}
+
+.price2{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.button2{
+    margin-left: 50px;
+}
+
+#c3{
+    height:300px;
+    width:100%;
+    margin-top: 30px;
+    border-radius: 150px;
+    background-color: whitesmoke;
+    box-shadow:5px 10px 20px;
+}
+
+.img3{
+    height:300px;
+    width:50%;
+    float: left;
+}
+
+.img3 > img{
+    height:300px;
+    width:100%;
+    border-radius: 100px;
+    box-shadow: 10px 0px 20px;
+}
+
+
+.textmojito{
+    height: 300px;
+    width:45%;
+    float: left;
+}
+
+.text3{
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 40px;
+    color:red;
+    text-shadow: 0px 0px 10px;
+}
+
+.Restaurant3{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.star3{
+    margin-left:50px;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+.checked{
+    color:yellow;
+}
+
+.price3{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.button3{
+    margin-left: 50px;
+}
+
+#c4{
+    height:300px;
+    width:100%;
+    margin-top: 30px;
+    border-radius: 150px;
+    background-color: whitesmoke;
+    box-shadow:5px 10px 20px;
+}
+
+.img4{
+    height:300px;
+    width:50%;
+    float: left;
+}
+
+.img4 > img{
+    height:300px;
+    width:100%;
+    border-radius: 100px;
+    box-shadow: 10px 0px 20px;
+}
+
+.textourspical{
+    height: 300px;
+    width:45%;
+    float: left;
+}
+
+.text4{
+    margin-top: 20px;
+    margin-left: 10%;
+    font-size: 40px;
+    color:red;
+    text-shadow: 0px 0px 10px;
+}
+
+.Restaurant4{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: gray;
+}
+
+.star4{
+    margin-left:50px;
+    font-size: 20px;
+    margin-top:5px;
+}
+
+.checked{
+    color:yellow;
+}
+
+.price4{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.button4{
+    margin-left: 50px;
+}
+
+
+
+/*Footer Section*/
+
+.footer{
+    text-align: center;
+}
