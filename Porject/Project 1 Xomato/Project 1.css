@@ -1,0 +1,276 @@
+body{
+    margin:auto;
+
+}
+a{
+    text-decoration:none;
+}
+/*Header Section*/
+header{
+    height:25px;
+    background-color: #ed9521;
+    position:fixed;
+    width:100%;
+}
+.login{
+    color:solid black;
+    float:right;
+    margin-right:2%;
+    font-size: 20px;
+    font-family:bold;
+}
+
+.login:hover{
+    font-size:28px;
+}
+
+.signup{
+    color:solid black;
+    margin-left:2%;
+    font-size:20px;
+    font-family:bold;
+}
+
+
+.signup:hover{
+    font-size:28px;
+}
+
+#social{
+    float:right;
+    margin-right:1%;
+    font-size: 20px;
+    color:blue;
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#social1{
+    float:right;
+    margin-right:2%;
+    font-size:20px;
+    color:blue;
+    font-weight:bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+/*Search Section*/
+#search{
+    height:400px;
+    width:100%;
+    /*border:2px solid red;*/
+    background-image:url("xomato.png");
+    background-repeat:no-repeat;
+    background-size:100% 400px;
+    margin:auto;
+
+}
+
+#container1{
+    height:140px;
+    width:60%;
+    /*border:2px solid black;*/
+    margin-left:20%;
+    margin-top:18%;
+    position:absolute;
+}
+
+#heading{
+    font-size:36px;
+    color:solid black;
+    font-family:'Franklin Gothic Medium'sans-serif;
+    font-style:oblique;
+    margin-left:10%;
+    margin-top:1%;
+
+}
+.foodsearch{
+    height:45px;
+    width:92%;
+    margin-top:4%;
+    margin-left:5%;
+    position:absolute;
+    /*border:2px solid black;*/
+
+}
+
+select{
+    height:45px;
+    width:49%;
+    font-size: 20px;
+}
+/*Quick search Section*/
+/*VEG section*/
+#VEG{
+    height:700px;
+    width:40%;
+    background-image:url("veg.jpg");
+    background-size:100% 700px;
+    float:right;
+}
+
+#VEGcontainer{
+    height:700px;
+    width:60%;
+    /*border:solid black;*/
+    position:absolute;
+
+}
+
+#VEGsearch1{
+    margin-left:2%;
+    display:block;
+    font-size:30px;
+    color:#ed9521;
+    font-family:cursive;
+}
+
+#VEGsearch2{
+    margin-left:2%;
+    display:block;
+    font-size: 20px;
+    color:gray;
+    line-height:2;
+}
+
+.VEGtitlecontainer{
+    width:45%;
+    height:200px;
+    /*border:2px solid red;*/
+    box-shadow:10px 20px 10px #533c1d;
+    float:left;
+    margin-left:3%;
+    margin-top:7%;
+}
+
+.VEGtitlecontainer:hover{
+    transform:scale(1.1)
+}
+
+.vegbreakfast1{
+    width:60%;
+    height:180px;
+    float:left;
+}
+
+.vegbreakfast1>img{
+    width:100%;
+    height:200px;
+}
+.vegbreakfast2{
+    width:45%;
+    float:left;
+    margin-top:-42%;
+    margin-left:62%;
+}
+
+.componentHeading >a {
+    color:#ed9521;
+    font-size:30px;
+
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:16px;
+    margin-top:15%;
+
+}
+
+
+/*NON-VEG section*/
+#NON-VEG{
+    height:700px;
+    width:40%;
+    background-image:url("nonveg.jpg");
+    background-size:100% 700px;
+    float:left;
+    margin-top:705px;
+} 
+
+#NON-VEGcontainer{
+    height:700px;
+    width:60%;
+    /*border:solid black;*/
+    position:absolute;
+    margin-top:52%;
+    margin-left:40%;
+}
+
+#NON-VEGsearch1{
+    margin-top:4%;
+    margin-left:2%;
+    display:block;
+    font-size:30px;
+    color:#ed9521;
+    font-family:cursive;
+}
+
+
+#NON-VEGsearch2{
+    margin-left:2%;
+    display:block;
+    font-size: 20px;
+    color:gray;
+    line-height:2;
+}
+
+.NON-VEGtitlecontainer{
+    width:45%;
+    height:200px;
+    /*border:2px solid red;*/
+    box-shadow:10px -20px 10px #533c1d;
+    float:left;
+    margin-left:3%;
+    margin-top:7%;
+}
+
+.NON-VEGtitlecontainer:hover{
+    transform:scale(1.1)
+}
+
+
+.nonvegbreakfast1{
+    width:60%;
+    height:180px;
+    float:left;
+}
+
+.nonvegbreakfast1>img{
+    width:100%;
+    height:200px;
+}
+.nonvegbreakfast2{
+    width:45%;
+    float:left;
+    margin-top:-42%;
+    margin-left:62%;
+}
+
+.componentHeading >a {
+    color:#ed9521;
+    font-size:30px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size:16px;
+    margin-top:15%;
+
+}
+
+
+/*Footer Section*/
+#Footer{
+    width:100%;
+    height:80px;
+    background-color: #f19e32;
+    margin-top: 105%;
+    text-align: center;
+ 
+}
+
+.foot{
+    text-align: center;
+    margin-top: -5%;
+}

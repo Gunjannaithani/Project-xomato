@@ -10,14 +10,34 @@
 
   <body>
     <!--Header Section-->
-    <header>
-      <div id="titlebar">
-        <button id="Home">HOME</button>
-        <button id="Login">LOG IN</button>
-        <button id="Signup">SIGN UP</button>        
-      </div>
+    <header>     
+      <nav class="navbar navbar-inverse update">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"data-target="#devNav"></button>
+          </div>
+          <div id="devNav" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <ion-icon name="contrast-outline"></ion-icon>
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-user"></span> SignUp
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="glyphicon glyphicon-user"></span> LogIn
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-
     <!--Search Section-->
     <div id="main">
       <div class="imgloc">

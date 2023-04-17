@@ -1,0 +1,11 @@
+body{
+    margin:auto;
+}
+
+.container{
+  width:60%;
+}
+
+.panel-heading{
+    text-align: center;
+}

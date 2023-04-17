@@ -4,27 +4,16 @@ body{
 }
 
 /*header section*/
-#titlebar{
-    height:30px;
-    width:100%;
-    background-color:#9a6f67;
+.update{
+    background-color: #8e5f59 !important;
+    border: none !important;
 }
 
-
-#titlebar > button{
-    margin-top: 2px;
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff !important;
 }
-
-#Home{
-    margin-left:10px;
-}
-#Login{
-   float:right;
-   margin-right: 10px;
-}
-#signup{
-    float:right;
-    margin-right: 10px;
+.navbar{
+    margin-bottom:0px !important;
 }
 
 /*search section*/
